@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/my-styles.css" rel="stylesheet" media="screen">
+  
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,12 +51,12 @@
     <!-- Navigation -->
     <div class="container">
       <ul class="nav nav-justified navbar-inverse hidden-xs">
-        <li role="presentation" class="active-l"><a id="navbar-text-active-l"  href="index.html">Willkommen</a></li>
-        <li role="presentation"><a id="navbar-text"  href="termin.html">Ihr Termin</a></li>
-        <li role="presentation"><a id="navbar-text"  href="therapien.html">Therapien</a></li>
-        <li role="presentation"><a id="navbar-text"  href="uebermich.html">Über mich</a></li>
-        <li role="presentation"><a id="navbar-text"  href="praxis.html">Praxis</a></li>
-        <li role="presentation"><a id="navbar-text-r"  href="kontakt.html">Kontakt</a></li>
+        <li role="presentation"><a class="navbar-text-l active-l"  href="index.html">Willkommen</a></li>
+        <li role="presentation"><a class="navbar-text-m"  href="termin.html">Ihr Termin</a></li>
+        <li role="presentation"><a class="navbar-text-m"  href="therapien.html">Therapien</a></li>
+        <li role="presentation"><a class="navbar-text-m"  href="uebermich.html">Über mich</a></li>
+        <li role="presentation"><a class="navbar-text-m"  href="praxis.html">Praxis</a></li>
+        <li role="presentation"><a class="navbar-text-r"  href="kontakt.html">Kontakt</a></li>
       </ul>
     </div>
     <!-- Navigation Ende -->
@@ -92,7 +93,9 @@
         <li data-target="#carousel-generic" data-slide-to="1"></li>
         <li data-target="#carousel-generic" data-slide-to="2"></li>
         <li data-target="#carousel-generic" data-slide-to="3"></li>
-        <li data-target="#carousel-generic" data-slide-to="4"></li>
+        <li data-target="#carousel-generic" data-slide-to="4"></li>  
+        <li data-target="#carousel-generic" data-slide-to="5"></li>
+        <li data-target="#carousel-generic" data-slide-to="6"></li>
       </ol>
 
       <!-- Wrapper for slides -->
@@ -101,56 +104,64 @@
         <div class="item active">
           <img src="carousel/Empfang_1g_1200x490.png" alt="Naturheilpraxis Empfang">
           <div class="carousel-caption">
-            <h1><strong>Schön, dass Sie vorbeikommen.</strong></h1>
-            <p>Naturheilpraxis Harkensee</p><br>
+            <h1><strong></strong></h1>
+            <p></p><br>
           </div>
         </div>
 
         <div class="item">
           <img src="carousel/pexels-photo-12211_1200x490.png" alt="Behandlungsraum 2">
           <div class="carousel-caption">
-            <h1 class="text-right"><strong>Unerfüllter <br>Kinderwunsch?</strong></h1>
-            <p class="lead text-right">Viele Paare wünschen <br>sich nichts sehnlicher <br>als ein Kind.</p>
-            <a class="btn btn-success btn-lg pull-right" href="kontakt.html" role="button">Zur Kinderwunschtherapie</a><br><br>
+            <a class="btn btn-success btn-lg absolute middle t-left" href="kontakt.html" role="button">Kinderwunschtherapie<br>jetzt starten</a><br><br>
           </div>
         </div>
 
         <div class="item" >
-          <img src="carousel/astronaut-877306_1200x490.png" alt="Gesunde Ernährung">
+          <img src="carousel/vegetables-790022.png" alt="Gesunde Ernährung">
           <div class="carousel-caption">
-            <h1 class="text-left"><strong>Gesunde Ernährung ist keine Raketenwissenschaft.</strong></h1>
-            <p class="lead text-left">Reduzieren Sie Ihr Gewicht durch eine Stoffwechseloptimierung.</p>
-            <a class="btn btn-success btn-lg pull-right" href="kontakt.html" role="button">Jetzt abnehmen!</a><br><br>
+            <a class="btn btn-success btn-lg absolute t-right top" href="kontakt.html" role="button">Jetzt abnehmen!</a><br><br>
           </div>
           </div>
         
-        <div class="item" >
+        <div class="item relative" >
           <img src="carousel/matryoshka-516281_1200x490.png" alt="Entsäuern und Entgiften">
           <div class="carousel-caption">
-            <h1 class="text-right"><strong>Entsäuern <br>&amp; entgiften.</strong><br></h1>
-            <p class="lead text-right">Entschlacken Sie <br>Ihr Zellgewebe und <br>sorgen Sie dafür, dass <br>Ihre Zellen wieder gut <br>versorgt werden können.</p>
-            <a class="btn btn-success btn-lg pull-right" href="kontakt.html" role="button">Entgiftungsorgane anregen!</a><br>
+            <a class="btn btn-success btn-lg absolute top t-left" href="kontakt.html" role="button">Entgiftungsorgane anregen!</a><br>
           </div>
         </div>
         
         <div class="item" >
-          <img src="carousel/frog-663966_1200x490.png" alt="Darmsanierung">
+          <img src="carousel/seals-902509_1200x490.png" alt="Darmsanierung">
           <div class="carousel-caption">
-            <a class="btn btn-success btn-lg pull-right" href="kontakt.html" role="button">Jetzt den <br>Darm sanieren!</a><br>
+            <a class="btn btn-success btn-lg absolute t-bottom t-right" href="kontakt.html" role="button">Jetzt den Darm sanieren!</a><br>
+          </div>
+        </div>
+        
+        <div class="item" >
+          <img src="carousel/rain-791893.png" alt="Immunsystem1">
+          <div class="carousel-caption">
+            <a class="btn btn-success btn-lg absolute t-bottom t-left" href="kontakt.html" role="button">Einen Termin vereinbaren</a><br>
+          </div>
+        </div>
+        
+        <div class="item" >
+          <img src="carousel/pressure-690161.png" alt="Immunsystem2">
+          <div class="carousel-caption">
+            <a class="btn btn-success btn-lg absolute t-middle t-right" href="kontakt.html" role="button">Einen Termin vereinbaren</a><br>
           </div>
         </div>
         
       </div>
 
       <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
-      </a>
+      </a>-->
   </div>
 </div>
     <!-- Carousel Ende -->
@@ -182,7 +193,7 @@
           </div>
           <p class="copy-text">Auf den folgenden Seiten möchte ich Sie dazu einladen, sich über die natur&shy;heil&shy;kundlichen Verfahren zu informieren, mit denen ich als Heil&shy;praktikerin in meiner Naturheil&shy;praxis in Hamburg-Eimsbüttel arbeite. 
           <br><br>
-          Bei Fragen oder Termin&shy;wünschen <a href="#">rufen Sie mich gern an</a> oder <a href="#">schreiben Sie mir eine E-Mail.</a></p>
+          Bei Fragen oder Termin&shy;wünschen <a href="#" data-toggle="tooltip" data-placement="top" title="Telefon: 040&nbsp;/&nbsp;28&nbsp;79&nbsp;63&nbsp;06">rufen Sie mich gern an</a> oder <a href="kontakt.html">schreiben Sie mir eine E-Mail.</a></p>                     
         </div>
       </div>
     </div>
@@ -213,9 +224,16 @@
   
     <script>
       $('.carousel').carousel({
-        interval: 5000
+        interval: 15000
       })
     </script>
+  
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+      });
+    </script>
+  
   
     <!-- Quickcontrol -->
   

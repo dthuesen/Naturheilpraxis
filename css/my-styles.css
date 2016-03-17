@@ -1,0 +1,423 @@
+
+/* Logo
+============================================*/
+.praxis-logo {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  float: none;
+  margin: 0 auto;
+ }
+
+
+/* Typographie
+============================================*/
+
+.headline {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.2em;
+  margin-bottom: 40px;
+}
+
+.copy-text {
+  text-align: left;
+  font-weight: lighter;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+
+.list-text {
+  text-align: left;
+  font-weight: lighter;
+  line-height: 1.4em;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.tooltip {
+  font-size: 18px;
+  width: auto;
+  color: cornsilk;
+}
+.tooltip-inner {
+  color: cornsilk;
+  background-color: #7e125D;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  padding-left: 25px;
+}
+
+
+li {
+  margin-bottom: .5em;
+  color: #7e125D;
+}
+a {
+  color: #7e125D;
+}
+a:hover {
+  color: #7e125D;
+  text-decoration: underline;
+}
+a:visited {
+  color: #7e125D;
+}
+a:active {
+  color: #7e125D;
+}
+
+
+
+/* Carousel Button
+============================================*/
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.t-right {
+  text-align: right;
+  right: -15rem !IMPORTANT;
+}
+.t-left {
+  text-align: left;
+  left: -15rem !IMPORTANT;
+}
+.t-center {
+  text-align: center;
+}
+.t-top {
+  vertical-align: top;
+  top: -3rem;
+}
+.t-middle {
+  vertical-align: middle;
+}
+.t-bottom {
+  vertical-align: bottom;
+}
+.t-background {
+  background: rgba(3, 25, 11, 0.38);
+  width: 50rem;
+  padding: 1rem;
+}
+
+
+
+/* Layout
+============================================*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:lighter;
+  background-color: cornsilk;
+  font-size: 26px;
+  line-height: 1.6em;
+}
+.whitespace {
+  margin-top: 50px;
+}
+.panel {
+  border: 0;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border-radius: 0 0 25px 25px;
+  
+}
+.panel-body {
+  color: cornsilk;
+  text-align: center;
+  line-height: 1.6em;
+  background-color: #7e125d;
+  border-radius: 0 0 25px 25px;
+}
+.panel-default>.panel-heading {
+  color: #7e125d;
+  border-top: 1px;
+  border-top-color: cornsilk;
+  border-left: 1px;
+  border-left-color: cornsilk;
+  border-right: 1px;
+  border-right-color: cornsilk;
+  border-bottom: 2px;
+  border-bottom-color: #7e125D;
+  border-style: solid;
+  background-color: cornsilk;
+  margin-top: 20px;
+  line-height: 15px;
+}
+
+.panel-collapse {
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-width: 1px;
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 55px;
+}
+.colapse-hl {
+  font-size: 26px;
+  line-height: 28px;
+}
+.panel-heading {
+  padding-left: 0px;
+}
+.mbr-header__text {
+  color: #7e125d !IMPORTANT;
+  font-family: 'Montserrat', sans-serif !IMPORTANT;
+}
+
+/* Hilfs-Navigation
+============================================*/
+.container-hilfsnavi {
+  font-size: 16px;
+  margin: 20px 20px 20px 20px;
+}
+.hn {
+  font-size: 16px;
+  margin: 0 20px 0 20px;
+  color: #7e125d;
+}
+
+
+/* Navigation
+============================================*/
+
+.navbar-text-m {
+  color: cornsilk !IMPORTANT;
+  background-color: #7e125D !IMPORTANT;
+  text-align: center;
+  font-size: 16px;
+}
+.navbar-text-l {
+  color: cornsilk !IMPORTANT;
+  background-color: #7e125D !IMPORTANT;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 20px 0px 0px 0px;
+}
+.navbar-text-r {
+  color: cornsilk !IMPORTANT;
+  background-color: #7e125D !IMPORTANT;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 0px 20px 0px 0px;
+}
+.navbar-text-m:hover {
+  color: #7e125D !IMPORTANT;
+  background-color: #e3b5d5 !IMPORTANT;
+}
+.navbar-text-l:hover {
+  color: #7e125D !IMPORTANT;
+  background-color: #e3b5d5 !IMPORTANT;
+}
+
+.navbar-text-r:hover {
+  color: #7e125D !IMPORTANT;
+  background-color: #e3b5d5 !IMPORTANT;
+}
+.active-l {
+  background-color: #e3b5d5 !IMPORTANT;
+  color:#7e125d !IMPORTANT;
+  border-radius: 20px 0px 0px 0px;
+}
+.active-m {
+  background-color: #e3b5d5 !IMPORTANT;
+  color:#7e125d !IMPORTANT;
+}
+.active-r {
+  background-color: #e3b5d5 !IMPORTANT;
+  color:#7e125d !IMPORTANT;
+  border-radius: 0px 20px 0px 0px;
+}
+.nav {
+  background-color: #7e125d;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.navbar {
+  background-color: #7e125d;
+  padding-top: 2px;
+}
+.navbar-inverse .navbar-toggle {
+  border: 1px solid cornsilk;
+  background-color: #7e125d;
+}
+.navbar-inverse .navbar-toggle:hover {
+  color: black;
+}
+.small-menu {
+  color:cornsilk;
+  text-shadow: true;
+  font-size: 14px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #7e125D;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #7e125D;
+}
+
+
+/* Photos
+================================= */
+.img-indre {
+  float: none;
+  padding-top: 18px;
+  padding-bottom: 75px;
+  margin: auto;
+}
+
+
+/* Media Queries
+================================= */
+@media (min-width: 1001px) {
+  .navbar-text-m {
+    font-size: 18px;
+  }
+  .navbar-text-l {
+    font-size: 18px;
+  }
+  .navbar-text-r {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 1.3rem;
+  }
+ }
+
+@media (max-width: 1000px) {
+  .navbar-text-m {
+    font-size: 11px;
+  }
+  .navbar-text-l {
+    font-size: 11px;
+  }
+  .navbar-text-r {
+    font-size: 11px;
+  }
+  .container-hilfsnavi {
+    font-size: 10px;
+    text-align: right;
+  }
+  .headline {
+    font-size: 42px;
+  }
+  body {
+    font-size: 22px;
+  }
+ }
+
+@media (max-width: 765px) {
+  h1 {
+    font-size: 14px;
+  }
+  .container-hilfsnavi {
+    font-size: 10px;
+    text-align: right;
+  }
+  body {
+    font-size: 32px;
+  }
+  .praxis-logo {
+    width: 290px;
+  }
+  .whitespace {
+  margin-top: 0px;
+  }
+}
+
+@media (max-width: 501px) {
+  .container-hilfsnavi {
+    font-size: 19px;
+  }
+  .praxis-logo {
+    width: 220px;
+  }
+  .headline {
+    font-size: 30px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.2em;
+  }
+  .copy-text {
+    font-size: 27px;
+    text-align: left;
+    line-height: 1.4em;
+  }
+  .list-text {
+    font-size: 27px;
+  }
+  .whitespace {
+    margin-top: 0px;
+  }
+  body {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 415px) {
+  .container-hilfsnavi {
+    font-size: 18px;
+  }
+
+  .praxis-logo {
+    width: 190px;
+ }
+  .headline {
+    font-size: 29px;
+    text-align: left;
+    line-height: 1.2em;
+ }
+
+  .copy-text {
+    font-size: 27px;
+    text-align: left;
+    line-height: 1.4em;
+  }
+  .list-text {
+    font-size: 27px;
+  }
+  .colapse-hl {
+    font-size: 24px;
+  }
+  .footer-text {
+    font-size: 18px !IMPORTANT;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 321px) {
+  .container-hilfsnavi {
+    font-size: 13px;
+  }
+  .headline {
+    font-size: 24px;
+    text-align: left;
+    line-height: 1.2em;
+  }
+
+  .praxis-logo {
+    width: 150px;
+  }
+  .list-text {
+    font-size: 22px;
+  }
+  body {
+  font-size: 22px;
+  line-height: 1.6em;
+  }
+  .colapse-hl {
+    font-size: 20px;
+  }
+}
+

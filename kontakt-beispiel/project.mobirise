@@ -1,0 +1,143 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.9",
+    "versionPublish": "2.9",
+    "name": "My Site",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise"
+    },
+    "publishType": "local",
+    "publishPath": "file:///C:/sites/naturheilpraxis/kontakt-beispiel"
+  },
+  "pages": {
+    "gallery.html": {
+      "settings": {
+        "main": true,
+        "title": "Meine Praxis | Naturheilpraxis Harkensee",
+        "meta_descr": "Bildergalerie",
+        "header_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <head> section, right before </head> -->",
+        "footer_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <body> section, right before </body> -->",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "gallery1",
+          "_name": "gallery2",
+          "_params": {
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/empfang-1g-814x543-92-814x543-23.jpg",
+                "image": "@PROJECT_PATH@/assets/images/empfang-1g-814x543-92.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/empfang-2g-814x543-68-814x543-46.jpg",
+                "image": "@PROJECT_PATH@/assets/images/empfang-2g-814x543-68.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/br1-2g-814x543-82-814x543-8.jpg",
+                "image": "@PROJECT_PATH@/assets/images/br1-2g-814x543-82.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/br1-1g-814x543-1-814x543-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/br1-1g-814x543-1.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/br3-1g-814x543-17-814x543-66.jpg",
+                "image": "@PROJECT_PATH@/assets/images/br3-1g-814x543-17.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/br2-1g-814x543-43-814x543-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/br2-1g-814x543-43.jpg",
+                "active": true
+              }
+            ],
+            "fullWidth": true,
+            "noGutter": false
+          },
+          "_anchor": "gallery2-4",
+          "articleLayout": true
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {},
+      "components": [
+        {
+          "text": "The Empire State Building was designed by William F. Lamb from the architectural firm Shreve, Lamb and Harmon.",
+          "_name": "map2",
+          "_anchor": "map2-6",
+          "_params": {
+            "address": "Von-der-Tann-Straße 1, Hamburg",
+            "info": "Naturheilpraxis Harkensee\n(040/28 79 63 06)"
+          },
+          "coord": [
+            53.57229,
+            9.959499999999935
+          ]
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-5",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#e6e4dc",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Kontakt",
+          "form": {
+            "action": "dthuesen@gmx.de",
+            "alerts": {
+              "success": "Vielen Dank für Ihre Nachricht"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Ihr Vor- und Zuname*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Ihre E-Mail-Adresse*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Ihre Telefonnummer"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Ihre Mitteilung, Fragen oder Terminwünsche an mich"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Absenden</a>",
+          "_styles": {
+            ".mbr-header__text": {
+              "text-align": "left",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "color": "#9365b8"
+            },
+            ".btn": {
+              "font-size": "16px"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

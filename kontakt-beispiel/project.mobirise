@@ -28,34 +28,54 @@
           "_params": {
             "images": [
               {
-                "thumb": "@PROJECT_PATH@/assets/images/empfang-1g-814x543-92-814x543-23.jpg",
-                "image": "@PROJECT_PATH@/assets/images/empfang-1g-814x543-92.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/auswahl-4030011-2000px-2000x1333-6-2000x1333-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/auswahl-4030011-2000px-2000x1333-6.jpg",
                 "active": false
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/empfang-2g-814x543-68-814x543-46.jpg",
-                "image": "@PROJECT_PATH@/assets/images/empfang-2g-814x543-68.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/auswahl-4030019-2000px-2000x1179-14-2000x1179-88.jpg",
+                "image": "@PROJECT_PATH@/assets/images/auswahl-4030019-2000px-2000x1179-14.jpg",
                 "active": false
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/br1-2g-814x543-82-814x543-8.jpg",
-                "image": "@PROJECT_PATH@/assets/images/br1-2g-814x543-82.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/br1-1g-814x543-1-814x543-26.jpg",
-                "image": "@PROJECT_PATH@/assets/images/br1-1g-814x543-1.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/br3-1g-814x543-17-814x543-66.jpg",
-                "image": "@PROJECT_PATH@/assets/images/br3-1g-814x543-17.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/br2-1g-814x543-43-814x543-26.jpg",
-                "image": "@PROJECT_PATH@/assets/images/br2-1g-814x543-43.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/br2-1g-814x543-68-814x543-16.jpg",
+                "image": "@PROJECT_PATH@/assets/images/br2-1g-814x543-68.jpg",
                 "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/auswahl-img-0817-2000px-2000x1333-95-2000x1333-91.jpg",
+                "image": "@PROJECT_PATH@/assets/images/auswahl-img-0817-2000px-2000x1333-95.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/auswahl-img-0970-2000px-2000x1098-34-2000x1098-66.jpg",
+                "image": "@PROJECT_PATH@/assets/images/auswahl-img-0970-2000px-2000x1098-34.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/auswahl-img-0990-2000px-2000x1306-76-2000x1306-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/auswahl-img-0990-2000px-2000x1306-76.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/auswahl-img-0998-2000px-2000x1333-80-2000x1333-59.jpg",
+                "image": "@PROJECT_PATH@/assets/images/auswahl-img-0998-2000px-2000x1333-80.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/auswahl-img-1003-2000px-2000x1333-88-2000x1333-4.jpg",
+                "image": "@PROJECT_PATH@/assets/images/auswahl-img-1003-2000px-2000x1333-88.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/auswahl-img-1018-2000px-2000x1333-2-2000x1333-78.jpg",
+                "image": "@PROJECT_PATH@/assets/images/auswahl-img-1018-2000px-2000x1333-2.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/auswahl-img-1042-2000px-2000x1333-38-2000x1333-25.jpg",
+                "image": "@PROJECT_PATH@/assets/images/auswahl-img-1042-2000px-2000x1333-38.jpg",
+                "active": false
               }
             ],
             "fullWidth": true,
@@ -84,6 +104,17 @@
         },
         {
           "_name": "form1",
+          "_styles": {
+            ".mbr-header__text": {
+              "text-align": "left",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "color": "#9365b8"
+            },
+            ".btn": {
+              "font-size": "16px"
+            }
+          },
           "_anchor": "form1-5",
           "_params": {
             "bgImageRadio": false,
@@ -124,18 +155,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Absenden</a>",
-          "_styles": {
-            ".mbr-header__text": {
-              "text-align": "left",
-              "font-family": "'Droid Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
-              "color": "#9365b8"
-            },
-            ".btn": {
-              "font-size": "16px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Absenden</a>"
         }
       ]
     }

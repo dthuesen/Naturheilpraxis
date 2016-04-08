@@ -823,7 +823,7 @@ html {
   background: none;
 }
 .mbr-figure--full-width {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 .mbr-figure.mbr-after-navbar:before {
